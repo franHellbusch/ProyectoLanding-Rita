@@ -179,3 +179,53 @@ header {
   font-weight: 400;
   line-height: 30px;
 }
+
+/* Features section */
+.features {
+  display: flex;
+  margin: 5rem 15%;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.features > img {
+  margin-right: 3rem;
+}
+
+.features_content {
+  width: 40%;
+}
+
+.features_content > h4 {
+  color: var(--color-text-primary);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.features_content > p {
+  color: var(--color-text-grey);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 15px 0;
+}
+
+.features_content-list {
+  list-style: none;
+}
+
+.features_content-list > li {
+  color: var(--color-text-grey);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.check_icon {
+  color: #2fab73;
+  margin-right: 20px;
+}
